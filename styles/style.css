@@ -29,6 +29,7 @@ ul {
 }
 /* Centering header content */
 header {
+    position: fixed;
     display: flex;
     justify-content: center;
 }
