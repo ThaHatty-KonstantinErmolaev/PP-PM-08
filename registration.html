@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="shortcut icon" href="media/Favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <div class="nav_container">
+        <nav class="nav background_green roboto-regular">
+            <div class="nav_links">
+                <ul class="flex-around align-center">
+                    <li>
+                        <a href="" class="text_white" tabindex="10">Главная</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger_container">
+                <button class="hamburger">
+                    <img src="media/menu_gamburger.svg" alt="Кнопка меню-гамбургер, открывающая окно навигации по странице ">
+                </button>
+            </div>
+            <div class="nav_logo">
+                <img src="media/Logo.svg" alt="Иконка чёрного замка на фоне белого круга - логотип">
+            </div>
+            <div class="nav_links">
+                <ul class="flex-around align-center">
+                    <li>
+                        <a href="" class="text_white" tabindex="11">Регистрация</a>
+                    </li>
+                    <li>
+                        <a href="" class="text_white" tabindex="12">Вход</a>
+                    </li>
+                    <li>
+                        <button class="nav_theme_button" tabindex="13">
+                            <img src="media/eye-closed.svg" alt="Иконка глаза - кнопка переключения темы">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="flex-column-center">
+    <section class="main_registration_container flex-center">
+        <div class="content roboto-regular">
+            <form action="">
+                <div class="main_form background_white">
+                    <div class="main_form_item">
+                        <h2>Регистрация</h2>
+                    </div>
+                    <div class="main_form_fields flex-column-center">
+                        <label for="role" tabindex="19">Выберите подходящую роль</label>
+                        <select class="form_select" aria-labelledby="role" name="role" id="role" tabindex="20">
+                            <option value="2">Главный программист</option>
+                            <option value="3">Программист</option>
+                            <option value="4">Главный менеджер</option>
+                            <option value="5">Менеджер</option>
+                            <option value="6">Главный бухгалтер</option>
+                            <option value="7">Бухгалтер</option>
+                        </select>
+                        <br>
+
+                        <label for="firstname">Ваше имя</label>
+                        <input placeholder="Введите имя" class="form_input" aria-labelledby="firstname" type="text" id="firstname" name="firstname" tabindex="21">
+                        <br>
+
+                        <label for="surname">Ваша фамилия</label>
+                        <input placeholder="Введите фамилию" class="form_input" aria-labelledby="surname" type="text" id="surname" name="surname" tabindex="22">
+                        <br>
+
+                        <label for="login">Ваш логин</label>
+                        <input placeholder="Введите логин" class="form_input" aria-labelledby="login" type="text" id="login" name="login" tabindex="23">
+                        <br>
+
+                        <label for="email">Ваш E-mail</label>
+                        <input placeholder="Введите email" class="form_input" aria-labelledby="email" type="email" id="email" name="email" tabindex="24">
+                        <br>
+
+                        <label for="password">Ваш пароль</label>
+                        <input placeholder="Введите пароль" class="form_input" aria-labelledby="password" type="password" id="password" name="password" tabindex="25">
+                        <br>
+                    </div>
+                    <div class="main_form_item">
+                        <button type="submit" class="main_banner_button background_red text_white" tabindex="26">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="footer_links_container background_white flex-center">
+        <div class="content">
+            <div class="footer_links flex-around roboto-regular">
+                <a href="" tabindex="97" class="text_black">+7-123-456-78-90</a>
+                <a href="" tabindex="98" class="text_black">info@mail.ru</a>
+            </div>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
