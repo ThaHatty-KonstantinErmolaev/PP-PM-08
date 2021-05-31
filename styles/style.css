@@ -30,7 +30,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 736px;
+    height: 900px;
 }
 
 
@@ -109,8 +109,12 @@ main {
     background: none;
     border: none;
     padding: 0;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
+}
+.edit_button:active {
+    transition: 0.1s;
+    border: 2px solid #287730;
 }
 .user_info > ul > li {
     margin: 0 0 20px 0;
