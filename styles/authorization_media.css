@@ -1,0 +1,13 @@
+/*
+ *  Media for authorization page
+ */
+
+@media (max-width: 720px) and (min-width: 320px) {
+    main {
+        display: block!important;
+        max-height: 720px;
+    }
+    .content {
+        margin-top: 100px;
+    }
+}
