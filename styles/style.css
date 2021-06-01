@@ -214,8 +214,8 @@ main {
 /* laptops ( 1280 px - 768 px ) */
 @media (max-width: 1280px) and (min-width: 769px) {
 
-    main {
-
+    .main {
+        height: 900px!important;
     }
     .hamburger_container {
         display: none;
@@ -228,6 +228,9 @@ main {
 /* tablets ( 768 px - 720 px ) */
 @media (max-width: 768px) and (min-width: 720px) {
 
+    .main {
+        height: 900px!important;
+    }
     .hamburger_container {
         display: block!important;
     }
@@ -254,6 +257,9 @@ main {
     .main_form_item {
         margin: 0 0 30px 0;
     }
+    .main_form_item > h1 {
+        font-size: 34px!important;
+    }
     .main_registration_container {
         margin: 0 0 0 0;
     }
@@ -274,8 +280,12 @@ main {
     .form_input, .form_select {
         font-size: 14pt;
     }
+    .main {
+        height: 900px!important;
+    }
     main {
         background: rgba(172, 211, 176, 1);
+        height: 100vh;
     }
     main > section {
         margin: 0!important;
