@@ -39,7 +39,7 @@ main {
     background-image: url("../media/page background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 93vh;
 }
 /* Bad margins */
 .main_banner_container {
