@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Новый пароль</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/modal.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="shortcut icon" href="../media/Favicon.ico" type="image/x-icon">
+    <title>Изменить категорию</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="shortcut icon" href="media/Favicon.ico" type="image/x-icon">
 </head>
 <body>
 <header class="header">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="nav_logo">
-                <img src="../media/Logo.svg" alt="Иконка чёрного замка на фоне белого круга - логотип">
+                <img src="media/Logo.svg" alt="Иконка чёрного замка на фоне белого круга - логотип">
             </div>
             <div class="nav_links">
                 <ul class="flex-around align-center">
@@ -43,7 +43,7 @@
                     </li>
                     <li>
                         <button class="nav_theme_button" tabindex="13">
-                            <img src="../media/eye-closed.svg" alt="Иконка глаза - кнопка переключения темы">
+                            <img src="media/eye-closed.svg" alt="Иконка глаза - кнопка переключения темы">
                         </button>
                     </li>
                 </ul>
@@ -57,31 +57,13 @@
             <form>
                 <div class="main_form background_white">
                     <div class="main_form_item">
-                        <h1>Новый пароль</h1>
+                        <h1>Изменить категория</h1>
                     </div>
                     <div class="main_form_fields flex-column-center">
-                        <label for="name">Название пароля</label>
-                        <input placeholder="Введите название для пароля" class="form_input" aria-labelledby="name" type="text" id="name" name="name" tabindex="20">
-                        <br>
-
-                        <label for="value">Ваш пароль</label>
-                        <input placeholder="Введите сам пароль" class="form_input" aria-labelledby="value" type="password" id="value" name="value" tabindex="21">
-                        <br>
-
-                        <label for="login">Логин для пароля</label>
-                        <input placeholder="Введите логин для пароля" class="form_input" aria-labelledby="login" type="text" id="login" name="login" tabindex="21">
-                        <br>
-
-                        <label for="category">Логин для пароля</label>
-                        <select multiple class="form_select multi_select" aria-labelledby="category" name="category" id="category" tabindex="20">
-                            <option value="1">Технические пароли</option>
-                            <option value="2">Банковские пароли</option>
-                            <option value="3">Пароли от соцсетей</option>
-                        </select>
-                        <br>
-
-                        <label for="description">Описание пароля</label>
-                        <textarea maxlength="80" aria-grabbed="false" contenteditable="false" class="form_text roboto-regular" name="description" id="description" cols="30" rows="4" placeholder="Опишите для чего этот пароль"></textarea>
+                        <input type="hidden" id="category_id">
+                        
+                        <label for="name">Название категории</label>
+                        <input placeholder="Введите название для категории" class="form_input" aria-labelledby="name" type="text" id="name" name="name" tabindex="20">
                         <br>
 
                     </div>
@@ -112,6 +94,6 @@
         </div>
     </div>
 </footer>
-<script src="../js/menu.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

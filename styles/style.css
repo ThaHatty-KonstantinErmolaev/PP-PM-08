@@ -113,6 +113,11 @@ main {
     border: 3px solid #57AB60;
     border-radius: 30px;
 }
+.multi_select {
+    height: 80px!important;
+    padding: 10px 0 0 20px;
+    overflow-y: hidden;
+}
 /* Textarea styles, not resizable */
 .form_text {
     margin-top: 10px;
@@ -271,6 +276,7 @@ main {
     }
     .main_form_item > h1 {
         font-size: 34px!important;
+        text-align: center;
     }
     .main_registration_container {
         margin: 0 0 0 0;
