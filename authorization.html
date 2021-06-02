@@ -6,6 +6,7 @@
     <title>Авторизация</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="shortcut icon" href="media/Favicon.ico" type="image/x-icon">
 </head>
@@ -21,9 +22,13 @@
                 </ul>
             </div>
             <div class="hamburger_container">
-                <button class="hamburger">
-                    <img src="media/menu_gamburger.svg" alt="Кнопка меню-гамбургер, открывающая окно навигации по странице ">
-                </button>
+                <div class="hamburger" id="openModal">
+                    <div id="nav-icon4" role="presentation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
             <div class="nav_logo">
                 <img src="media/Logo.svg" alt="Иконка чёрного замка на фоне белого круга - логотип">
@@ -66,6 +71,15 @@
                     <div class="main_form_item">
                         <button type="submit" class="main_banner_button background_red text_white" tabindex="24">Войти</button>
                     </div>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    </div>
+
                 </div>
             </form>
         </div>
@@ -81,5 +95,6 @@
         </div>
     </section>
 </footer>
+<script src="js/menu.js"></script>
 </body>
 </html>
