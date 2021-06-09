@@ -7,6 +7,10 @@
     font-family:Roboto regular;
     src: url("../media/fonts/Roboto/Roboto-regular.ttf");
 }
+@font-face {
+    font-family: Roboto Bold;
+    src: url("../media/fonts/Roboto/Roboto-Bold.ttf");
+}
 /* Remove unnecessary margin */
 * {
     margin: 0;
@@ -219,6 +223,10 @@ main {
     font-family: Roboto regular, serif;
     font-size: 20px;
 }
+.roboto-bold {
+    font-family: Roboto Bold, serif;
+    font-size: 28px;
+}
 /* font styles */
 
 /* Media for big screens */
@@ -240,10 +248,13 @@ main {
     .header {
         background: #287730;
     }
+    .nav {
+        border: none!important;
+    }
 }
 
 /* tablets ( 768 px - 720 px ) */
-@media (max-width: 768px) and (min-width: 720px) {
+@media (max-width: 768px) and (min-width: 721px) {
 
     .main {
         height: 900px!important;
@@ -256,6 +267,7 @@ main {
     }
     .nav {
         justify-content: space-between!important;
+        border: none!important;
     }
     main {
         max-height: 860px;
@@ -316,6 +328,7 @@ main {
     }
     .nav {
         justify-content: space-between!important;
+        border: none!important;
     }
     .header {
         background: #287730;

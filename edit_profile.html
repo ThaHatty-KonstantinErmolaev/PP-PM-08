@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Изменить категорию</title>
+    <title>Изменить профиль</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/modal.css">
@@ -57,13 +57,29 @@
             <form>
                 <div class="main_form background_white">
                     <div class="main_form_item">
-                        <h1>Изменить категорию</h1>
+                        <h1>Изменить профиль</h1>
                     </div>
                     <div class="main_form_fields flex-column-center">
                         <input type="hidden" id="category_id">
-                        
-                        <label for="name">Название категории</label>
-                        <input placeholder="Название категории" class="form_input" aria-labelledby="name" type="text" id="name" name="name" tabindex="20">
+
+                        <label for="firstname">Ваше имя</label>
+                        <input placeholder="Ваше имя" class="form_input" aria-labelledby="firstname" type="text" id="firstname" name="firstname" tabindex="20">
+                        <br>
+
+                        <label for="surname">Ваша Фамилия</label>
+                        <input placeholder="Фамилия" class="form_input" aria-labelledby="surname" type="text" id="surname" name="surname" tabindex="20">
+                        <br>
+
+                        <label for="login">Ваш логин</label>
+                        <input placeholder="Ваш логин" class="form_input" aria-labelledby="login" type="text" id="login" name="login" tabindex="20">
+                        <br>
+
+                        <label for="email">Ваш email</label>
+                        <input placeholder="" class="form_input" aria-labelledby="email" type="email" id="email" name="email" tabindex="20">
+                        <br>
+
+                        <label for="password">Ваш пароль</label>
+                        <input placeholder="" class="form_input" aria-labelledby="password" type="password" id="password" name="password" tabindex="20">
                         <br>
 
                     </div>

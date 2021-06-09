@@ -138,7 +138,7 @@
 }
 
 /* Media for tablets*/
-@media (max-width: 768px) and (min-width: 720px) {
+@media (max-width: 768px) and (min-width: 721px) {
     /* Show hamburger */
     .hamburger_container {
         display: block!important;
