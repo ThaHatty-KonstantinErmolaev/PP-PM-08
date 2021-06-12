@@ -24,6 +24,26 @@ ul {
     list-style: none;
 }
 
+/* Style for dropdown menu */
+.dropdown_container {
+    display: none;
+    z-index: 3;
+    min-width: 160px;
+    min-height: 90px;
+    background: #287730;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* that's for dropdown elements (margins) */
+.dropdown_container > li {
+    margin: 15px 0 0 0;
+    padding-left: 10px;
+}
+/* Dropdown work depends on it */
+.dropdown_trigger:hover .dropdown_container {
+    display: block;
+}
 /* Centering content of sections */
 .content {
     max-width: 950px;
