@@ -27,6 +27,7 @@
     padding: 0;
 }
 .modal_links > li {
+    text-align: left;
     margin-bottom: 20px;
     margin-top: 20px;
 }
