@@ -178,6 +178,68 @@ main {
 .user_info > ul > li {
     margin: 0 0 20px 0;
 }
+/* Container for passwords */
+.main_passwords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Password's buttons */
+.password_buttons > button {
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    background: white;
+    font-family: Roboto regular;
+}
+.edit_password_button > a {
+    color: black;
+}
+.edit_password_button {
+    border: 3px solid #287730;
+}
+.delete_password_button {
+    border: 3px solid #B12E27;
+}
+.edit_password_button:active {
+    background: #287730;
+}
+.edit_password_button:active > a {
+    color: white;
+}
+.delete_password_button:active {
+    background: #B12E27;
+    color: white;
+}
+/* block that contains passwords */
+.passwords_container {
+    max-width: 1200px;
+    padding-top: 46px;
+}
+.password_container {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 4px solid #287730;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    margin: 12.5px 12.5px 12.5px 12.5px;
+}
+/* blocked input with password */
+.password_input {
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.password_container:nth-child(odd) {
+    grid-row-start: 1;
+}
+.password_container:nth-child(even) {
+    grid-row-start: 2;
+}
 
 /* flexbox classes just like bootstrap's! */
 .align-center {
@@ -270,6 +332,18 @@ main {
     }
     .nav {
         border: none!important;
+    }
+    .main_passwords {
+        grid-template-columns:200px 200px;
+        grid-template-rows: 180px 180px 180px 180px;
+    }
+    .password_container:nth-child(1) {
+        grid-row-start: 1;
+        grid-column-start: 1;
+    }
+    .password_container:nth-child(2) {
+        grid-row-start: 2;
+        grid-column-start: 2;
     }
 }
 
